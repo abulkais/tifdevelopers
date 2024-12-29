@@ -1,0 +1,400 @@
+.residential_sec {
+    position: relative;
+}
+
+.residential_sec_banner {
+    background-image: url('../images/Banner/residential.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 7rem 0rem;
+    margin: 0px;
+    background-position: center top;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    color: #fff;
+}
+
+.residential_sec_banner2 {
+    background-image: url('../images/Banner/commercial.webp') !important;
+
+}
+
+
+
+.residential_sec_banner h1 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.residential_sec_banner p a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.rs_service {
+    margin: 4rem 0;
+}
+
+.rs_service h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 2rem;
+}
+
+.rs_service_box {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    border: 5px solid #fff
+}
+
+.rs_service_box button {
+    text-decoration: none;
+    padding: 8px 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid #1e944a;
+    background-color: #1e944a;
+    transition: 1s ease-in-out;
+
+}
+
+.rs_service_box button:hover {
+    color: #1e944a;
+    border: 2px solid #1e944ac;
+    background-color: #fff;
+}
+
+
+.rs_service_box img {
+    border-radius: 5px;
+    height: 50px;
+    width: auto;
+
+}
+
+.rs_service_box h3 {
+    font-size: 1.4rem;
+    text-align: start;
+    margin-top: 1rem;
+    margin-bottom: 10px;
+}
+
+.rs_service_box p {
+    text-align: justify;
+    margin-bottom: 0;
+}
+
+.rs_service .col-lg-4 {
+    margin-bottom: 2rem;
+}
+
+
+.faq_sec {
+    margin: 4rem 0;
+}
+
+.faq_sec h4 {
+    font-weight: 600;
+    font-size: 2.3rem;
+    text-align: center;
+    color: #444;
+    margin-bottom: 2rem;
+}
+
+.faq_sec .faq-list ul {
+    padding: 0;
+    list-style: none;
+}
+
+
+.faq_sec .faq-list li {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 4px;
+    position: relative;
+    margin-bottom: 1.3rem;
+}
+
+.faq_sec .faq-list .faq_box {
+    font-size: 1.3rem;
+    display: block;
+    position: relative;
+    line-height: normal;
+    font-weight: 600;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 0;
+}
+
+.faq_sec .faq-list .icon-help {
+    font-size: 1.4rem;
+    position: absolute;
+    right: 0;
+    left: 20px;
+    color: #e82c88;
+}
+
+.faq_sec .faq-list .icon-show,
+.faq_sec .faq-list .icon-close {
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.faq_sec .faq-list p {
+    margin-bottom: 0;
+    padding: 10px 0 0 0;
+}
+
+.faq_sec .faq-list .icon-show {
+    display: none;
+}
+
+.faq_box.collapsed {
+    color: #444;
+    transition: 0.3s;
+}
+
+.faq_box:hover {
+    color: #075bd9;
+}
+
+.faq_sec .faq-list .faq_box.collapsed .icon-show {
+    display: inline-block;
+}
+
+.faq_sec .faq-list .faq_box.collapsed .icon-close {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .faq_sec .faq-list {
+        padding: 0;
+    }
+}
+
+
+.why_section {
+    margin: 3rem 0;
+}
+
+.why_section h3 {
+    font-size: 2.5rem;
+}
+
+.why_section p {
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.why_section .why_section_bg {
+    background-color: #72727032;
+    border-radius: 7px;
+    cursor: pointer;
+    height: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    padding: 20px;
+    width: 100%;
+}
+
+.why_section .why_section_bg:hover {
+    background-color: #1e94494e;
+}
+
+
+.why_section_bg figure img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.why_section_bg figure {
+    margin: 0;
+}
+
+.why_section_bg h4 {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.why_section_bg p {
+    text-align: center;
+}
+
+project_exp {
+    margin: 3rem 0;
+}
+
+.project_exp h3 {
+    font-size: 2.5rem;
+    color: #000;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.project_exp iframe {
+    border: 0;
+    width: 100%;
+    height: 20rem;
+}
+
+.iframe_details {
+    background-color: #1e944a;
+    padding: 1rem 0;
+}
+
+.iframe_details h4 {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+
+/*  */
+
+.carousel img {
+    width: 70px;
+    max-height: 70px;
+    border-radius: 50%;
+    margin-right: 1rem;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    padding: 1em;
+}
+
+@media screen and (min-width: 576px) {
+    .carousel-inner {
+        display: flex;
+        width: 90%;
+        margin-inline: auto;
+        padding: 1em 0;
+        overflow: hidden;
+    }
+
+    .carousel-item {
+        display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100% / 2);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .carousel-item {
+        display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100% / 2);
+    }
+}
+
+.carousel .card {
+    margin: 0 0.5em;
+    border: 0;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 3rem;
+    height: 3rem;
+    background-color: grey;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.reviewSlider {
+    margin: 4rem 0;
+}
+
+.reviewSlider h4 {
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    line-height: normal;
+    margin-bottom: 1rem;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .residential_sec_banner {
+        padding: 4rem 0rem;
+    }
+
+    .residential_sec_banner h1 {
+        font-size: 1.7rem;
+    }
+
+    .rs_service_box {
+        padding: 1rem;
+    }
+
+    .rs_service h2 {
+        font-size: 1.7rem;
+        margin-bottom: 1rem;
+        text-transform: capitalize;
+    }
+
+    .faq_sec .faq-list .faq_box {
+        font-size: 1.1rem;
+    }
+
+    .project_exp {
+        margin: 0rem 0;
+    }
+
+    .project_exp h3 {
+        margin-bottom: 1rem;
+        font-size: 1.7rem;
+    }
+    .rs_service{
+        margin: 2rem 0;
+    }
+    .faq_sec h4 {
+        font-size: 1.7rem;
+    }
+    .why_section{
+        margin: 2rem 0 0 0;
+    }
+    .why_section h3{
+        font-size: 1.7rem;
+    }
+    .why_section .why_section_bg{
+        width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+    .iframe{
+        margin-bottom: 1rem;
+    }
+
+    .reviewSlider h4{
+        font-size: 1.7rem;
+    }
+    .reviewSlider{
+        margin: 2rem 0;
+    }
+    .carousel-inner{
+        padding: 0;
+    }
+
+}

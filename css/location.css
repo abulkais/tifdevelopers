@@ -1,0 +1,481 @@
+.residential_sec {
+    position: relative;
+}
+
+.residential_sec_banner {
+    background-image: url('../images/Banner/gallery.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 7rem 0rem;
+    margin: 0px;
+    background-position: center top;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    color: #fff;
+}
+
+
+
+.residential_sec_banner h1 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.residential_sec_banner p a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+.carousel img {
+    width: 70px;
+    max-height: 70px;
+    border-radius: 50%;
+    margin-right: 1rem;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    padding: 1em;
+}
+
+@media screen and (min-width: 576px) {
+    .carousel-inner {
+        display: flex;
+        width: 90%;
+        margin-inline: auto;
+        padding: 1em 0;
+        overflow: hidden;
+    }
+
+    .carousel-item {
+        display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100% / 2);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .carousel-item {
+        display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100% / 2);
+    }
+}
+
+.carousel .card {
+    margin: 0 0.5em;
+    border: 0;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 3rem;
+    height: 3rem;
+    background-color: grey;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.reviewSlider {
+    margin: 4rem 0;
+}
+
+.reviewSlider h4 {
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    line-height: normal;
+    margin-bottom: 1rem;
+}
+
+
+
+:root {
+    --border-color: #cccccc;
+    --background-color: #ffff;
+    --transition: all 0.2s ease;
+}
+
+
+
+main {
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+}
+
+.accordion .accordion-item {
+    background-color: var(--background-color);
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+}
+
+.accordion .accordion-item .accordion-item-description-wrapper hr {
+    border: none;
+    border-top: 1px solid var(--border-color);
+    visibility: visible;
+}
+
+.accordion .accordion-item.open .accordion-item-description-wrapper hr {
+    visibility: visible;
+}
+
+.accordion .accordion-item .accordion-item-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.accordion .accordion-item .accordion-item-header .accordion-item-header-title {
+    font-weight: 600;
+}
+
+.accordion .accordion-item .accordion-item-header .accordion-item-header-icon {
+    transition: var(--transition);
+}
+
+.accordion .accordion-item.open .accordion-item-header .accordion-item-header-icon {
+    transform: rotate(-180deg);
+}
+
+.accordion .accordion-item .accordion-item-description-wrapper {
+    display: grid;
+    grid-template-rows: 0fr;
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+.accordion .accordion-item.open .accordion-item-description-wrapper {
+    grid-template-rows: 1fr;
+}
+
+.accordion .accordion-item .accordion-item-description-wrapper .accordion-item-description {
+    min-height: 0;
+}
+
+.accordion .accordion-item .accordion-item-description-wrapper .accordion-item-description p {
+    padding: 10px;
+    line-height: 1.5;
+}
+
+.packages_section {
+    background-color: #e3e3e3;
+    padding: 2rem 0;
+}
+
+.packages_section h4 {
+    color: #000;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 5px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.packages_section p {
+    text-align: center;
+}
+
+.accordion_div {
+    background-color: #1e944a;
+    padding: 1rem;
+}
+
+.accordion_div h4 {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+
+.faq_sec {
+    margin: 4rem 0;
+}
+
+.faq_sec h4 {
+    font-weight: 600;
+    font-size: 2.3rem;
+    text-align: center;
+    color: #444;
+    margin-bottom: 2rem;
+}
+
+.faq_sec .faq-list ul {
+    padding: 0;
+    list-style: none;
+}
+
+
+.faq_sec .faq-list li {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 4px;
+    position: relative;
+    margin-bottom: 1.3rem;
+}
+
+.faq_sec .faq-list .faq_box {
+    font-size: 1.3rem;
+    display: block;
+    position: relative;
+    line-height: normal;
+    font-weight: 600;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 0;
+}
+
+.faq_sec .faq-list .icon-help {
+    font-size: 1.4rem;
+    position: absolute;
+    right: 0;
+    left: 20px;
+    color: #e82c88;
+}
+
+.faq_sec .faq-list .icon-show,
+.faq_sec .faq-list .icon-close {
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.faq_sec .faq-list p {
+    margin-bottom: 0;
+    padding: 10px 0 0 0;
+}
+
+.faq_sec .faq-list .icon-show {
+    display: none;
+}
+
+.faq_box.collapsed {
+    color: #444;
+    transition: 0.3s;
+}
+
+.faq_box:hover {
+    color: #075bd9;
+}
+
+.faq_sec .faq-list .faq_box.collapsed .icon-show {
+    display: inline-block;
+}
+
+.faq_sec .faq-list .faq_box.collapsed .icon-close {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .faq_sec .faq-list {
+        padding: 0;
+    }
+}
+
+
+.why_section {
+    margin: 3rem 0;
+}
+
+.why_section h3 {
+    font-size: 2.5rem;
+}
+
+.why_section p {
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.why_section .why_section_bg {
+    background-color: #72727032;
+    border-radius: 7px;
+    cursor: pointer;
+    height: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    padding: 20px;
+    width: 100%;
+}
+
+.why_section .why_section_bg:hover {
+    background-color: #1e94494e;
+}
+
+
+.why_section_bg figure img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.why_section_bg figure {
+    margin: 0;
+}
+
+.why_section_bg h4 {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.why_section_bg p {
+    text-align: center;
+}
+
+
+/* construction company */
+.construction_top_sec {
+    margin: 3rem 0;
+}
+
+.construction_top_sec h3 {
+    font-size: 2.5rem;
+    text-transform: capitalize;
+}
+
+
+
+.servises_section {
+    background-color: #e3e3e3;
+    padding: 3rem 0;
+}
+
+.servises_section a {
+    text-decoration: none;
+}
+
+.servises_section h3 {
+    font-weight: 500;
+    font-size: 2.8rem;
+}
+
+.servises_section figure {
+    margin: 0;
+    overflow: hidden;
+}
+
+.bb-construction__type {
+    min-height: 2.8125rem;
+    background-color: #1d1a12;
+    padding: 0.75rem;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: normal;
+    position: relative;
+}
+
+.bb-construction:hover figure img {
+    transform: scale(1.1);
+    /* Zoom the image */
+    transition: transform 0.3s ease-in-out;
+    /* Smooth transition */
+
+}
+
+.servises_section figure img {
+    max-width: 100%;
+    width: 100%;
+    vertical-align: top;
+    transform: transform 0.2s ease;
+}
+
+.bb-construction__type::before {
+    position: absolute;
+    width: 100%;
+    top: -0.25rem;
+    right: 0;
+    height: 0.25rem;
+    background-color: #1e944a;
+    content: '';
+    transition: all 0.2s ease;
+}
+
+.bb-construction__type:hover {
+    background-color: #1e944a;
+}
+
+.bb-construction__type span {
+    z-index: 1;
+    position: relative;
+}
+
+
+@media only screen and (max-width:575px) {
+
+    .residential_sec_banner h1 {
+        font-size: 1.7rem;
+    }
+
+    .residential_sec_banner {
+        padding: 4rem 0;
+    }
+
+    .construction_top_sec h2,
+    .servises_section h3 {
+        font-size: 1.4rem;
+    }
+    .bb-construction{
+        margin-bottom: 2rem;
+    }
+    .servises_section{
+        padding: 2rem 0 0 0;
+    }
+    .why_section h3{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .why_section p{
+        text-align: center;
+    }
+    .why_section .why_section_bg{
+        margin-bottom: 1rem;
+        height: auto;
+    }
+    .packages_section h4{
+        font-size: 1.7rem;
+    }
+    .accordion_div h4{
+        font-size: 1.1rem;
+    }
+    .packages_section .col-lg-4{
+        margin-bottom: 1rem;
+    }
+    .reviewSlider h4{
+        font-size: 1.7rem;
+    }
+    .reviewSlider{
+        display: none;;
+    }
+    .faq_sec{
+        margin: 2rem 0;
+    }
+    .faq_sec h4{
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+    }
+    .faq_sec .faq-list .faq_box{
+        font-size: 1.1rem;
+    }
+}

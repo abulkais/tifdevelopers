@@ -1,0 +1,277 @@
+.gallery_sec {
+    position: relative;
+}
+
+.gallery_sec_banner {
+    background-image: url('../images/Banner/gallery.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 7rem 0rem;
+    margin: 0px;
+    background-position: center top;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    color: #fff;
+}
+
+
+
+.gallery_sec_banner h1 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.gallery_sec_banner p a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+/* gallery banner css :end */
+/*  */
+.galler_img_sec {
+    margin: 4rem 0;
+
+}
+
+.galler_img_sec p {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+    color: #1e944a;
+}
+
+.galler_img_sec h2 {
+    color: #000;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 2rem;
+}
+
+
+#imageModal img {
+    width: 100%;
+    height: auto;
+}
+
+.galler_img_sec img {
+    border-radius: 10px;
+    width: auto;
+    height: 100%;
+}
+
+.galler_img_sec button {
+    margin-bottom: 1rem;
+}
+
+
+.galler_btn_bg {
+    background-color: #1e944a;
+    color: #fff;
+    padding: .7rem 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.galler_btn_bg_out:hover {
+    background-color: #1e944a;
+    color: #fff;
+    padding: .7rem 1rem;
+}
+
+.galler_btn_bg_out {
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #1e944a;
+    padding: .7rem 1rem;
+    border: 1px solid #1e944a;
+}
+
+
+/*  */
+/* .image-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    border-radius: 10px;
+    background-color: #1e94499e;
+    background-color: rgba(0, 0, 0, 0.6); 
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-container:hover .image-overlay {
+    opacity: 1;
+  }
+  
+  .image-text {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+  } */
+
+.gallary_modal .modal-body {
+    padding: 0;
+}
+
+
+.gallary_modal .carousel-control-prev .carousel-control-prev-icon {
+    border-radius: 10px;
+    padding: 1.5rem;
+    background: green;
+    background-image: url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%23fff%27%3e%3cpath d=%27M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z%27/%3e%3c/svg%3e');
+}
+
+.gallary_modal .carousel-control-next .carousel-control-next-icon {
+    border-radius: 10px;
+    padding: 1.5rem;
+    background: green;
+    background-size: cover;
+    background-image: url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%23fff%27%3e%3cpath d=%27M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z%27/%3e%3c/svg%3e');
+}
+
+
+/* Style the tab */
+.tab_section .tab {
+    flex-wrap: wrap;
+    overflow: hidden;
+    border: none;
+    background-color: #fff;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+/* Style the buttons inside the tab */
+.tab_section .tab button {
+    border: 1px solid #1e944a;
+    margin: 0px auto;
+    padding: 10px;
+    align-items: center;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    display: block;
+}
+
+/* Change background color of buttons on hover */
+.tab_section .tab button:hover {
+    color: #fff;
+    background-color: #1e944a;
+}
+
+/* Create an active/current tablink class */
+.tab_section .tab button.active {
+    color: #fff;
+    border-radius: 5px;
+    background-color: #1e944a;
+}
+
+/* Style the tab content */
+.tab_section .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+
+.tab_section h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+.tab_section {
+    margin: 4rem 0;
+}
+
+.tabcontent {
+    border: 1px solid #fff;
+    border: none !important;
+    display: none;
+    /* Hide all by default */
+}
+
+.tabcontent.active {
+    display: block;
+    /* Show the active tab */
+}
+
+
+#allProjects img,
+#residential img,
+#commercial img,
+#onGoing img,
+#complete img {
+    width: 100%;
+    border-radius: 10px;
+    height: 200px;
+    margin-top: 2rem;
+}
+
+
+
+#imageModal .modal-body {
+    padding: 0;
+}
+
+#imageModal .modal-body img {
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 500px) {
+
+    .tab_section .tab button {
+        margin-bottom: 1rem;
+    }
+    .tab_section h2{
+        font-size: 1.6rem;
+    }
+    .tab_section{
+        margin: 2rem 0;
+    }
+    .gallery_sec_banner {
+        padding: 4rem 0rem;
+    }
+
+    .gallery_sec_banner h1 {
+        font-size: 2rem;
+    }
+
+    .galler_img_sec p {
+        font-size: 1rem;
+    }
+
+    .galler_img_sec h2 {
+        font-size: 1.7rem;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+}

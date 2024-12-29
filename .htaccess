@@ -1,0 +1,12 @@
+RewriteEngine on
+
+  RewriteCond %{THE_REQUEST} /([^.]+)\.php [NC]
+  RewriteRule ^ /%1 [NC,L,R]
+  RewriteCond %{REQUEST_FILENAME}.php -f
+  RewriteRule ^ %{REQUEST_URI}.php [NC,L]
+
+  RewriteRule ^index\.php$  https://tifdevelopers.com/ [R=301,L]
+
+  ErrorDocument 404 https://tifdevelopers.com/404.php
+
+  ErrorDocument 500 https://tifdevelopers.com/
